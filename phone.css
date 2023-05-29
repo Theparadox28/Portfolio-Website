@@ -1,0 +1,293 @@
+body{
+    background-color: red;
+}
+
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 57%;
+    margin-left:-227px;
+    margin-top: 27%;
+    margin-bottom: 27%;
+    /* font-size: 7px; */
+    
+}
+
+.hello{
+    font-size: 57px;
+
+}
+
+.name{
+    font-size: 37px;
+    /* font-size: 37px; */
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 27px;
+}
+
+
+.about{
+    font-size: 17px;
+    margin-top: 27px;
+}
+.moreabout {
+    font-size: 12px;
+    margin-top: 37px;
+
+}
+.buttons button{
+    padding: 7px 17px;
+    border-radius: 27px;
+    color: beige;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 7px;
+    margin: 0 2px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin-right: 27px;
+
+}
+
+
+.devimg img{
+    height: 117px; 
+   width: 117px;
+    margin-top: -527px;
+   margin-left: 177px;
+   margin-right: 27px;
+    margin-bottom: 27px; 
+   
+   display: grid;
+   justify-content: center;
+   flex-direction: row;
+   /* flex-direction: row-reverse; */
+   /* flex-direction: row-reverse; */
+
+
+
+} 
+
+
+
+.sidebar nav{
+
+    padding: 7px;
+ }
+
+
+ .sidebar nav li{
+    align-items: center;
+    padding: 27px 0;
+    list-style: none;
+    font-size: 17px;
+    margin: 7px 27px;  
+}
+
+
+
+.intro h2{
+    font-family: 'Source Code Pro',;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-style:bold;
+    font-size:17px;
+
+}
+
+
+
+.intro p{
+    margin-left: 7px;
+    margin-top: 7px;
+    font-size: 7px;
+
+}
+
+
+
+
+.skillcontainer{
+    margin-left: 7px;
+    margin-top: 17px;
+    font-size: 7px;
+
+}
+
+
+
+
+.blogitem h2{
+    margin-bottom: 7px;
+    font-size: 12px;
+
+
+}
+
+
+
+
+.contactform h1{
+    font-family: 'Source Code Pro',;
+    text-align: center;
+    margin-left: -57px;
+    margin-top: -27px;
+    margin-right: -47px;
+    display: flex;
+    justify-content: center;
+    font-style:bold;
+    font-size:17px;
+}
+
+
+
+
+.blogitem p{
+    margin-bottom: 7px;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+.skillitem{
+    margin-top: 17px;
+    margin-bottom: -7px;
+    padding-bottom: 17px ;
+    /* margin-top: 27px; */
+    font-size: 17px;
+
+}
+
+
+
+
+
+.skill{
+    height: 7px;
+    width: 127px;
+    background-color: red;
+    margin-top: 17px;
+    border-radius: 7px;
+
+}
+
+.skillt7
+{ 
+    height: 7px;
+    width: 177px;
+    background-color: orangered;
+    margin-top: 12px;
+    border-radius: 7px;
+    
+
+
+
+}
+
+.btn{
+    font-size: 7px;
+    padding: 2px 12px;
+
+
+    margin-left: 2px;
+    border-radius: 27px;
+    /* background-color: rgb(209, 102, 63); */
+    cursor: pointer;
+    margin-top: 7px;
+    color: beige;
+    background-color: dodgerblue;
+
+}
+.blogitem h1{
+    margin-left: 27px;
+    margin-top: 27px;
+    font-size: 12px;
+
+}
+
+
+
+
+.blogcontainer h1{
+    margin-left: 37px;
+    margin-top: 7px;
+    font-size: 17px;
+
+}
+
+
+
+
+.blogitem{
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+
+}
+
+
+
+.contactform div{
+    padding-top: 17px; 
+    display: flex;
+    margin-left: 420px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contactform div input{
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: -397px;
+    justify-content: center;
+    padding-left: -227px;
+    width: 127px;
+    border-radius: 7px;
+    margin-top: -27px;
+
+}
+.contactform div{
+    padding-top: 17px; 
+    display: flex;
+    /* margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 17px; */
+    margin-left: 420px;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-label {
+    font-size: 12px;
+    padding-bottom: 27px;
+    font-style: bold;
+    margin-top: 27px;
+    margin-left: -397px;
+}
+.btnprimary {
+    font-size: 12px;
+    padding: 3px 3px;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    width: 77px;
+    background-color: dodgerblue;
+    margin-left: -357px;
+    border-radius: 27px;
+    /* background-color: rgb(209, 102, 63); */
+    cursor: pointer;
+    margin-top: -277px;
+}
+

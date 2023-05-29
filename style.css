@@ -1,0 +1,339 @@
+.sidebar{
+    background-color:  #a79e9e;
+    /* width:377px; */
+}
+
+.main{
+    background-color: beige;
+    /* height: 100vh; */
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    /* width: 100px; */
+}
+
+.infocontainer{
+    /* background-color: beige; */
+    height: 77vh;
+    width: 77vw;
+    margin-top: 77px;
+    margin-left: 77px;
+    margin-bottom: 77px;
+    margin-right: 77px ;
+    /* margin: 137px auto; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+}
+.devimg img{
+    height: 277px; 
+   width: 277px;
+    margin-top: -377px;
+   margin-left: 727px;
+   margin-right: 27px;
+    margin-bottom: 27px; 
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   /* flex-direction: row-reverse; */
+   /* flex-direction: row-reverse; */
+
+
+
+} 
+
+
+.sidebar nav{
+
+   padding: 27px;
+}
+
+
+.sidebar nav li{
+    align-items: center;
+    padding: 27px 0;
+    list-style: none;
+    font-size: 27px;
+    margin: 7px 27px;  
+}
+
+.sidebar nav li a { 
+    text-decoration: none   ;
+    /* align-items: center;
+    padding: 27px 0;
+    list-style: none;
+    font-size: 27px;
+    margin: 7px 27px;   */
+} 
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 67px;
+
+}
+
+.name{
+    font-size: 57px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 27px;
+}
+
+
+.about{
+    font-size: 47px;
+    margin-top: 27px;
+}
+.moreabout {
+    /* font-size: 27px; */
+    margin-top: 37px;
+
+}
+.buttons button{
+    padding: 7px 17px;
+    border-radius: 27px;
+    color: beige;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 2px;
+    cursor: pointer;
+    margin-top: 57px;
+    margin-right: 27px;
+
+}
+
+
+.contactform{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 0 57px;
+    padding-top: 57px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro',;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style:bold;
+    font-size:37px;
+}
+
+.contactform div{
+    padding-top: 17px; 
+    display: flex;
+    margin-left: 420px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contactform div input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    justify-content: center;
+    padding-left: 27px;
+    
+    width: 350px;
+    border-radius: 7px;
+    margin-top: -7px;
+
+}
+#emailHelp{
+    display: block;
+    width: 50%;
+    position: relative;
+    /* right: 10%; */
+    font-size: 12px;
+    color: red;
+    margin-left: 7px;
+    padding-top: 17px;
+}
+.check{
+    display: block;
+    width: 50%;
+    position: relative;
+    left:30px;
+    bottom:31px;
+}
+
+.form-label{
+    font-size: 17px;
+    padding-bottom: 17px ;
+    font-style: bold;
+    margin-top: 27px;
+    margin-left: 7px;
+}
+/* 
+.btnprimary{
+    font-size: 17px;
+    padding: 2px 12px;
+
+    display: flex;
+    justify-content: center;
+    color: beige;
+    width: 27px;
+    background-color: dodgerblue;
+    margin-left: -97px;
+    border-radius: 27px;
+    /* background-color: rgb(209, 102, 63); */
+
+
+.blogitem{
+    margin-top: 37px;
+    margin-left: 27px;
+    margin-right: 27px;
+
+}
+h2{
+    margin-bottom: 7px;
+
+
+}
+
+h1{
+    margin-left: 27px;
+    margin-top: 27px;
+
+}
+
+
+
+.form-check-label{
+    margin-left: -17px;
+    margin-top: -17px;
+
+}
+.form-control{
+    display: inline block;
+    width:50% ;
+}
+.intro h2{
+    font-family: 'Source Code Pro',;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    font-style:bold;
+    font-size:37px;
+
+}
+.skillcontainer{
+    margin-left: 27px;
+    margin-top: 27px;
+
+}
+#isclient{
+    display:block;
+    width: 3%;
+
+}
+.intro p{
+    margin-left: 27px;
+    margin-top: 27px;
+
+}
+
+
+
+.skillitem{
+    margin-top: 17px;
+    margin-bottom: 7px;
+    padding-bottom: 17px ;
+    /* margin-top: 27px; */
+    font-size: 27px;
+
+}
+
+
+.hamburger{
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.cross{
+    margin-left: 167px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+.skill{
+    height: 12px;
+    width: 277px;
+    background-color: red;
+    margin-top: 17px;
+    border-radius: 7px;
+
+}
+
+.skillt7
+{ 
+    height: 12px;
+    width: 377px;
+    background-color: orangered;
+    margin-top: 12px;
+    border-radius: 7px;
+    
+
+
+
+}
+
+
+
+.btn{
+    font-size: 12px;
+    padding: 2px 12px;
+
+
+    margin-left: 2px;
+    border-radius: 27px;
+    /* background-color: rgb(209, 102, 63); */
+    cursor: pointer;
+    margin-top: 17px;
+    color: beige;
+    background-color: dodgerblue;
+
+}
+
+
+.blogcontainer{
+    height: 100vh; 
+    width: 100vw;
+    overflow:hidden;
+    overflow-y:auto;
+}
+.btnprimary {
+    font-size: 12px;
+    padding: 3px 3px;
+    display: flex;
+    justify-content: center;
+    color: beige;
+    width: 77px;
+    background-color: dodgerblue;
+    margin-left: 157px;
+    border-radius: 27px;
+    /* background-color: rgb(209, 102, 63); */
+    cursor: pointer;
+    margin-top: 7px;
+}
